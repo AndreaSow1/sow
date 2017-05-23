@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE sow[
+<!ELEMENT sow (information*)
+<!ELEMENT information(nom,prenom,datenaiss,lieunaiss,sexe,statut,fonction,matricule,habitation,niveau)
+<!ELEMENT nom(#pcdata)
+<!ELEMENT prenom(#pcdata)
+<!ELEMENT lieunaiss(#pcdata)
+<!ELEMENT sexe(#pcdata)
+<!ELEMENT statut(#pcdata)
+<!ELEMENT fonction(#pcdata)
+<!ELEMENT matricule(#pcdata)
+<!ELEMENT habitation(#pcdata)
+<!ELEMENT niveau(#pcdata)
+]>
+
+
+
+
+<sow>
+	<information>
+		<nom>Koffi</nom>
+		<prenom>Cynthia</prenom>
+		<datenaiss>30-03-1992</datenaiss>
+		<lieunaiss>Marcory</lieunaiss>
+		<sexe>Feminin</sexe>
+		<statut>Celibataire sans enfant</statut>
+		<fonction>Stagiaire</fonction>
+		<matricule>05-037-624L</matricule>
+		<habitation>Koumassi</habitation>
+		<niveau>Licence professionelle</niveau>
+	</information>
+</sow>
+
